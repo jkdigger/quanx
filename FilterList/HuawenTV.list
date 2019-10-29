@@ -1,0 +1,5 @@
+# > 华文电视：中区港区无法使用，必须美区等其他区域
+USER-AGENT,HWTVMobile*,special
+DOMAIN-SUFFIX,5itv.tv,special
+DOMAIN-SUFFIX,ocnttv.com,special
+DOMAIN-SUFFIX,mob.com,special

@@ -1,0 +1,56 @@
+# 以下是一些常用的国际服务，finalFast是quanX自定义的策略组，速度优先。
+# > TikTok 只要非国内节点就可以使用，对IP没有要求
+USER-AGENT,TikTok*,finalFast
+DOMAIN-SUFFIX,musical.ly,finalFast
+DOMAIN-SUFFIX,tiktokv.com,finalFast
+DOMAIN-SUFFIX,tiktokcdn.com,finalFast
+DOMAIN-KEYWORD,-tiktokcdn-com,finalFast
+# > Spotify	
+USER-AGENT,Spotify*,finalFast	
+DOMAIN-SUFFIX,pscdn.co,finalFast	
+DOMAIN-SUFFIX,scdn.co,finalFast	
+DOMAIN-SUFFIX,spotify.com,finalFast	
+DOMAIN-SUFFIX,spoti.fi,finalFast# > Twitter	
+DOMAIN-SUFFIX,pscp.tv,Twitter	
+DOMAIN-SUFFIX,periscope.tv,Twitter	
+DOMAIN-SUFFIX,t.co,Twitter	
+DOMAIN-SUFFIX,twimg.co,Twitter	
+DOMAIN-SUFFIX,twimg.com,Twitter	
+DOMAIN-SUFFIX,twitpic.com,Twitter	
+DOMAIN-SUFFIX,vine.co,Twitter	
+DOMAIN-KEYWORD,twitter,Twitter	
+# > Pornhub	
+DOMAIN-SUFFIX,phncdn.com,finalFast	
+DOMAIN-SUFFIX,pornhub.com,finalFast	
+DOMAIN-SUFFIX,pornhubpremium.com,finalFast	
+# > Netflix	
+USER-AGENT,Argo*,finalFast	
+DOMAIN-SUFFIX,netflix.com,finalFast	
+DOMAIN-SUFFIX,netflix.net,finalFast	
+DOMAIN-SUFFIX,nflxext.com,finalFast	
+DOMAIN-SUFFIX,nflximg.com,finalFast	
+DOMAIN-SUFFIX,nflximg.net,finalFast	
+DOMAIN-SUFFIX,nflxso.net,finalFast	
+DOMAIN-SUFFIX,nflxvideo.net,finalFast	
+IP-CIDR,23.246.0.0/18,finalFast	
+IP-CIDR,37.77.184.0/21,finalFast	
+IP-CIDR,45.57.0.0/17,finalFast	
+IP-CIDR,64.120.128.0/17,finalFast	
+IP-CIDR,66.197.128.0/17,finalFast	
+IP-CIDR,108.175.32.0/20,finalFast	
+IP-CIDR,192.173.64.0/18,finalFast	
+IP-CIDR,198.38.96.0/19,finalFast	
+IP-CIDR,198.45.48.0/20,finalFast	
+# > Telegram	
+DOMAIN-SUFFIX,t.me,	finalFast
+DOMAIN-SUFFIX,tdesktop.com,finalFast	
+DOMAIN-SUFFIX,telegra.ph,finalFast
+DOMAIN-SUFFIX,telegram.me,finalFast
+DOMAIN-SUFFIX,telegram.org,finalFast
+IP-CIDR,109.239.140.0/24,finalFast,no-resolve	
+IP-CIDR,149.154.164.0/22,finalFast,no-resolve	
+IP-CIDR,149.154.168.0/22,finalFast,no-resolve	
+IP-CIDR,149.154.172.0/22,finalFast,no-resolve	
+IP-CIDR,91.108.4.0/22,finalFast,no-resolve	
+IP-CIDR,91.108.56.0/22,finalFast,no-resolve	
+IP-CIDR,91.108.56.0/23,finalFast,no-resolve	

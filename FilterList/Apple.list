@@ -1,0 +1,37 @@
+# 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
+# > Apple
+DOMAIN-SUFFIX,aaplimg.com,special
+DOMAIN-SUFFIX,apple.co,special
+DOMAIN-SUFFIX,apple.com,special
+DOMAIN-SUFFIX,appstore.com,special
+DOMAIN-SUFFIX,cdn-apple.com,special
+DOMAIN-SUFFIX,crashlytics.com,special
+DOMAIN-SUFFIX,icloud.com,special
+DOMAIN-SUFFIX,icloud-content.com,special
+DOMAIN-SUFFIX,me.com,special
+DOMAIN-SUFFIX,mzstatic.com,special
+DOMAIN,www-cdn.icloud.com.akadns.net,special
+# (The Most Popular Sites)
+# > Apple
+# >> TestFlight
+DOMAIN,testflight.apple.com,special
+# >> Apple URL Shortener
+DOMAIN-SUFFIX,appsto.re,special
+# >> iBooks Store download
+DOMAIN,books.itunes.apple.com,special
+# >> iTunes Store Moveis Trailers
+DOMAIN,hls.itunes.apple.com,special
+# >> Spotlight
+DOMAIN,api-glb-sea.smoot.apple.com,special
+# >> Dictionary
+DOMAIN,lookup-api.apple.com,special
+# >> Apple News and Apple Map TOMTOM Version
+DOMAIN,gspe1-ssl.ls.apple.com,special
+USER-AGENT,AppleNews*,special
+USER-AGENT,com.apple.news*,special
+DOMAIN-SUFFIX,apple.news,special
+DOMAIN,news-client.apple.com,special
+DOMAIN,news-edge.apple.com,special
+DOMAIN,news-events.apple.com,special
+DOMAIN,apple.comscoreresearch.com,special
+IP-CIDR,17.0.0.0/8,special
