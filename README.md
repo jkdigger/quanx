@@ -1,1 +1,2 @@
 脚本仅支持quanx1.00版，远程一份，本地一份
+Scriptsqranx专用脚本
